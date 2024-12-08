@@ -1,0 +1,4 @@
+- **Up to 16 (exam key fact)** EC2 instances can attach to  a single io1/io2 EBS volume, with full read-write permissions.
+- Available only for io1/io2 family (the provisions IOPS EBS volumes).
+- Use case:
+	- Higher app availability in clustered linux apps

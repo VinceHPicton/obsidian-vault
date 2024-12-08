@@ -12,6 +12,6 @@ EBS volumes are characterized by size, throughput (this is MB/s - data transfer 
 2. io2 block express - the best and most expensive one, suitable for very low latency requirements
 **Important point**: if you want over 32000 IOPS, you need **EC2 nitro with io1 or io2**
 
-**HDD series - low performance & cost, not for EC2 root volumes**
+**HDD series - low performance, low cost, not for EC2 root volumes**
 1. st1 - log processing
 2. sc1 - lowest cost EBS available 
