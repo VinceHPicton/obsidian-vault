@@ -1,0 +1,1 @@
+An IAM user **can** belong to multiple user groups
