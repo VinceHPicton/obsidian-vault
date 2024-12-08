@@ -8,8 +8,8 @@ EBS volumes are characterized by size, throughput (this is MB/s - data transfer 
 
 **Provisioned IOPS SSD - highest performance, lowest latency**
 *if you need more than 16000 iops, or best latency, supports [[EBS multi-attach]]*
-1. io1 - higher performance than general purpose, needed if you require more than 16000 IOPS 
-2. io2 block express - the best and most expensive one, suitable for very low latency requirements
+1. io1 - higher performance than general purpose, **max 64000 IOPS (w EC2 nitro), 32000 IOPS otherwise**
+2. io2 block express - the best and most expensive one, suitable for very low latency requirements, **max 256,000 IOPS**
 **Important point**: if you want over 32000 IOPS, you need **EC2 nitro with io1 or io2**
 
 **HDD series - low performance, low cost, not for EC2 root volumes**

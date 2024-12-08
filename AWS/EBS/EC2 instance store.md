@@ -1,4 +1,5 @@
 - These are where your EC2 gets a hardware attached drive (not a network drive like EBS gives you).
 - So there is no network latency and you get **very high performance**.
+- Capable of **more than the max IOPS of io2** (256,000)
 - This is good for things like caching.
 - The problem is that when your instance is **stopped** (even stopped and restarting loses it) the EC2 instance store is gone forever. This is **ephemeral** = data only persists as long as instance is running.

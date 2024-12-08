@@ -2,7 +2,7 @@ Elastic Block Storage volumes are [[Network Drive|network drives]] for EC2 insta
 
 Some EBS can be attached to multiple instances.
 
-They are in 1 specific place in the world, so they are **locked** to 1 availability zone. You cannot attach an EBS in us-east-1a to an EC2 in us-east-1b. To do that you must **snapshot it**.
+They are in 1 specific place in the world, so they are **locked to 1 availability zone**. You cannot attach an EBS in us-east-1a to an EC2 in us-east-1b. To do that you must **snapshot it**.
 
 Free tier: 30GB of free EBS storage of type general purpose (SSD) or magnetic per month.
 
