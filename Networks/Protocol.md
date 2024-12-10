@@ -1,0 +1,1 @@
+**Just means a set of rules**, in the computing case these rules govern exchange or transmission of data.

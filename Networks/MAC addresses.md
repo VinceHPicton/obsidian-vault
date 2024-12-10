@@ -1,0 +1,3 @@
+A Media Access Control address is a **globally unique** identifier which is assigned to a [[Network cards|NIC]] at the *hardware level*. MAC addresses are burned onto the NIC when they are manufactured.
+
+It is possible to change the MAC address of a NIC at the software level, the OS will override the MAC address, and this change will be reset after the system is shut down, at which point the NIC will still have it's hardware level MAC address.
