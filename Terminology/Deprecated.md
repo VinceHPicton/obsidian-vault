@@ -1,0 +1,1 @@
+Still usable but regarded as obsolete and best avoided, generally because something newer and superior exists.
