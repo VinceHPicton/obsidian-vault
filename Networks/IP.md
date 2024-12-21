@@ -1,4 +1,4 @@
-Internet [[protocol]] is a set of rules that defines how data packets should be addressed and routed through the internet. 
+Internet [[Protocol]] is a set of rules that defines how data packets should be addressed and routed through the internet. 
 
 Things that IP does as part of the data transfer process:
 - Gives packets a source and destination **IP address**, either IPv4 or IPv6

@@ -3,6 +3,6 @@ Target groups are groups of AWS services of a specific type which are routed tra
 - ECS tasks (managed by ECS itself) - HTTP
 - Lambda functions - HTTP request is translated into JSON event
 - IP addresses - must be private IPs
-- Application Load balancers
+- More Application Load balancers!
 
 
