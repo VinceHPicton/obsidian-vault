@@ -1,0 +1,24 @@
+
+**Read replicas**
+- Read replicas are **read-only** copies of your RDS database, they can be within 1 AZ, cross AZs, or even cross region.
+- They have **eventual consistency** with the main database
+- All data transfer **within a region is free**, transfer between regions has a cost (usually transfer between AZs is not free).
+- You may have up to **15** read replicas per database,  **X-Forwarded-Port** and **X-Forwarded-Proto**.
+- Connected apps must **update their connection string** to make use of read replicas.
+- A read replica can also be promoted to a new entirely separate DB which will no longer be read-only.
+- One ideal use case of read replicas is to make a DB copy for some reporting system that only reads data, so it doesnt add load to the prod DB.
+
+**Multi AZ (disaster recovery)**
+This is different to read replicas, it's creating a synchronously updated (strongly consistent) clone of your database, in another AZ, incase your primary AZ has an outage.
+- It presents a single DNS name for your DB, so there is automatic failover to the backup in an outage, requiring **no manual intervention**.
+- This increases **availability**, not scaling
+
+
+**How to take a DB from single AZ to multi**
+You just right click and "modify" the database.
+This is a zero downtime operation.
+
+What happens is:
+- A snapshot is taken of the current DB
+- The snapshot is used to build a backup in another AZ
+- The backup once online gets up to speed with the main DB and becomes strongly consistent.
