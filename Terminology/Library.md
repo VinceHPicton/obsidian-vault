@@ -1,0 +1,3 @@
+- A collection of reusable code
+- Reduces need to rewrite things
+- You control when you use its functionality

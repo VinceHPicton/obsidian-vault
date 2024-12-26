@@ -1,0 +1,1 @@
+A **database driver** is a software component that allows a software application to interact with a specific database management system (DBMS). It acts as a bridge between your application code and the database, translating the application's commands into a form that the database can understand, and vice versa.

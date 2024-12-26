@@ -1,0 +1,3 @@
+- Predetermined architecture - you have to follow the specified pattern, putting files in the right directories etc
+- Work within framework boundaries
+- There are right and wrong ways to use it.
