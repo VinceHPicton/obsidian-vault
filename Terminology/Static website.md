@@ -1,0 +1,1 @@
+A statis website is a website consisting of fixed HTML, CSS and JS which is sent to the user browser exactly as stored on the server.

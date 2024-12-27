@@ -3,10 +3,10 @@ There are 2 options for backing up:
 	- Daily full backup
 	- Transaction logs backed-up every 5 mins
 	- Able to restore to any point
-	- 1-35 days retention, set zero to disable feature
+	- 1-35 days retention, set zero to disable feature (NOT long term backups)
 - Manual
 	- Eg before a schema update
-	- Retain as long as you want
+	- Retain as long as you want (LONG TERM backups possible)
 
 Exam trick: a stopped RDS DB is far more expensive than a snapshot. For long periods of stopping, take a snapshot and delete the instance.
 

@@ -1,0 +1,1 @@
+An intermediary between applications and their database, a bit like a [[Reverse proxy]] for a database, it's used to optimize performance by pooling connections, improve security, and other reasons.

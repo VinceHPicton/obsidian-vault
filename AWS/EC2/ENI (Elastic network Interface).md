@@ -1,5 +1,5 @@
 
-Virtual [[Network cards]], bound to a specific AZ - can only be attached to EC2 instances in that AZ.
+Virtual [[Network cards]], bound to a specific AZ - can only be attached to EC2 instances in that AZ. And can only be **associated with 1 EC2 instance in that AZ at a time** just like a real network card.
 
 They're like separating the IP part from the EC2 instance, meaning you can move the ENI to a new instance if one fails (just like removing the physical hardware component from one computer and plugging it into another one), meaning the system is only down for a few seconds.
 

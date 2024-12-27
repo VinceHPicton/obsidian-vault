@@ -1,2 +1,1 @@
-**Points of presence**
 There are 400+ points of presence, which are smaller than full on data centres, they're used for delivering caching and providing lower latency.

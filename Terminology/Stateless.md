@@ -1,0 +1,1 @@
+A system which does not retain information about **previous interactions**. Every request is treated independently and does not rely on previous requests like session data.

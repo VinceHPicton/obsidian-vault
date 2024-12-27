@@ -3,7 +3,7 @@ Managed relation database service.
 You must remember supported DB engines:
 - Postgres
 - MySQL & MariaDB
-- Oracle
+- Oracle - does NOT support IAM DB authentication
 - IBM DB2
 - Microsoft SQL server
 - AWS Aurora
