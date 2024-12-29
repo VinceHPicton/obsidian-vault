@@ -1,4 +1,5 @@
 All storage in S3 has 99.9999999& durability, (11 9s)
+You can manually move between classes, or use S3 lifecycle configurations (rules for the bucket that say when objects should be moved)
 
 *General purpose tiers:*
 ***
@@ -38,4 +39,4 @@ Tiers:
 4. Archive Access - configurable 90-700 days
 5. Deep Archive access - config 180-700+ days
 
-*You can manually move between classes, or use S3 lifecycle configurations*
+
