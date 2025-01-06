@@ -1,0 +1,1 @@
+Use overflow-x: hidden on the body element
