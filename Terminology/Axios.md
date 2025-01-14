@@ -1,0 +1,1 @@
+A [[Library]] which offers an alternative to the builtin JS fetch() function

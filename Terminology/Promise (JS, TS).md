@@ -1,0 +1,1 @@
+An object that holds the eventual result or failure of an asynchronous operation.
