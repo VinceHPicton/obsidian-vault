@@ -1,0 +1,1 @@
+In order to import and use react elements (.tsx), the file being imported to must also be a .tsx

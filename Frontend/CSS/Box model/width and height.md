@@ -1,0 +1,1 @@
+These define the width and height of only the content - the very centre of the box, by default [[Padding]] and [[Border]] do not effect this, unless you use `box-sizing: border-box` to change this.

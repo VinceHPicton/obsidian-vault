@@ -1,0 +1,1 @@
+Only difference is NavLink applies the "active" class to the selected link
