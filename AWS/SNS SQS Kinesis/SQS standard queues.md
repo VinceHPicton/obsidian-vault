@@ -19,7 +19,7 @@ They process the message and then use the DeleteMessage API to delete it.
 
 **Strong pattern: ASG paired with SQS**
 1. Setup an ASG and set the EC2 as consumers.
-2. Put on a cloudwatch metric of QueueLength (ApproximateNumberOfMessages), set an alarm for a specific threshold
+2. Put on a cloudwatch metric of QueueLength (**ApproximateNumberOfMessages**), set an alarm for a specific threshold
 3. Cloudwatch alarm triggers ASG to scale horizontally.
 
 

@@ -1,0 +1,4 @@
+- Decoupling
+- Sudden spike load
+- Timeouts due to load
+- Anything that requires very fast scaling.
