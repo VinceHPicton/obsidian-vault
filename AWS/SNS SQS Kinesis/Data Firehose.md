@@ -1,4 +1,4 @@
-A fully managed, serverless, near real-time data streaming service used to load data into data lakes, data warehouses, and analytics services.
+A fully managed, serverless, **near real-time** data streaming service used to load data into data lakes, data warehouses, and analytics services.
 - It's nearly real-time because fills up it's buffer (customizable size, eg 5 MiB) before processing.
 - Allows processing data with a lambda before sending on to consumers.
 
