@@ -2,11 +2,11 @@
 - **Postgres** and **MySQL** are supported as Aurora DB (meaning DB drivers from either work as if Aurora was Postgres/MySQL)
 - Up to 15 read replicas - add them at a push of a button, or use scaling policies.
 - Scales in 10 GB increments up to 128TB of storage **across the entire cluster**
-- There is **1 single write endpoint**, pointing to the sing master DB.
+- There is **1 single write endpoint**, pointing to the single master DB.
 - There is also **1 single read endpoint**, which load balances across all the [[RDS read replicas and multi AZ|read replicas]].
 - A little more expensive than RDS, but is much more performant than it.
 - By default its within a region, but you can add read replicas to other regions and expand to cross-region too.
-- Automatically copies data across 3 AZs
+- Automatically copies data into 6 read replicas across 3 AZs (within its region)
 	- 4/6 needed online for DB writes to be allowed
 	- 3/6 for reads
 	- Storage is spread across 100s of volumes

@@ -1,0 +1,46 @@
+Can be used to expose any AWS service to the public internet.
+
+Features:
+- Pair with lambdas for a fully serverless API
+- Support WebSocket
+- API versioning - /v1, /v2 etc
+- Custom environments eg dev prod uat
+- Security - authentication and authorization
+- Handles throttling and API keys
+- Swagger/ OpenAPI
+- **Caching** out of the box
+
+**Integrations possible**
+**Lambda**:
+- Easily expose each lambda with a REST API
+
+**HTTP:**
+Exposing HTTP endpoints, you would do this because API gateway can add features like throttling
+
+**Expose any other AWS service**
+![[API Gateway.png]]
+
+**API Gateway Endpoint types**
+
+Edge-Optimized (default)
+- API gateway still exists in the region it was created at but it's accessed performantly at edge locations
+
+Regional
+- Where you wont need edge caching globally
+- Can still use CloudFront to manually control caching locations
+
+Private
+- Only accessible from within the VPC using an [[ENI (Elastic network Interface)]]
+- Use resource policies to allow access.
+
+**API Gateway security**
+User auth:
+- IAM roles for internal apps
+- Cognito for user auth - like mobile users
+- Custom auth logic
+
+Custom Domai Name HTTPS
+*Integrate with ACM for HTTPS*
+- If using edge-optimized - the certificate must be in **us-east-1**
+- If regional - the cert must be in the same region as the gateway
+- Must setup CNAME and A-alias record in Route 53

@@ -10,12 +10,12 @@ Pay per second for exactly what you use - aurora will handle bringing up and dow
 
 **Global aurora**
 *Recommended over cross region read replicas*
-Put aurora read-only clusters, containing *up to 16 read replicas per secondary region* in other regions to improve latency for global users
-There is one PRIMARY read-write cluster
-And also SECONDARY readonly clusters
-You can promote secondary clusters to become the primary in case of a failover
+- Put aurora read-only clusters in other regions to improve latency for global users, each region containing ***up to 16 read replicas per secondary region*** 
+- There is one PRIMARY read-write cluster
+- And also SECONDARY readonly clusters
+- You can promote secondary clusters to become the primary in case of a failover
 
-*Key fact*: typical cross-region replication in aurora takes less than 1 second.
+*Key fact*: typical cross-region replication in aurora takes **less than 1 second**.
 
 **Cross region read replicas**
 Simple to setup - used for disaster recovery

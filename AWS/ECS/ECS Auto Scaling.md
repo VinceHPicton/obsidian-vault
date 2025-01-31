@@ -3,7 +3,7 @@ There are 3 metrics which can be used to scale based on:
 - RAM use - ECS service average memory Utilisation
 - ALB request count per target.
 
-How can you scale using these metrics?
+**How can you scale using these metrics?**
 - Target tracking - scale service in order to maintain a specific target of ALB request count/CPU/RAM use
 - Step scaling - scale based on a CloudWatch alarm looking at one of the 3 above
 - Scheduled scaling - scale at specific times of day etc

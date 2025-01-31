@@ -1,0 +1,18 @@
+
+**One function can have**...
+*Execution limits*
+- 128MB - 10GB memory (RAM)
+	- RAM allocation also controls CPU power allocated
+- Max execution time 15 minutes (900 s)
+- Max total environment variables 4 KB
+- Disk capacity (inside /tmp directory) 512MB - 10GB
+
+*Deployment*
+- Compressed .zip file for function code cannot exceed 50 MB
+- Uncompressed (code + dependencies) max 250 MB
+- Able to use /tmp to load other files on startup
+- Environment vars 4KB max
+
+**Regional limit**
+All functions **within a region combined** cannot have more than 1000 concurrent executions
+(this can be raised with a support ticket to AWS)

@@ -1,4 +1,3 @@
-
 The OSI model is one way to understand how networks function, the model makes more sense by thinking of the layers as 4, combining layers 5-7 into 1.
 
 See the image for where different protocols sit

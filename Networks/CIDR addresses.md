@@ -14,3 +14,5 @@ leaving us 512 IP addresses: 123.123.123.XXX and 123.123.124.XXX (excepting broa
 0.0.0.0/0 means **all** IP addresses. The first zero bits are the network address, leaving all 32 bits as variable.
 
 122.149.196.85/32 means **one single IP** address
+
+![[CIDR addresses2.png]]
