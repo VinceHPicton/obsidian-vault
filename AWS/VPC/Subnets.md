@@ -1,4 +1,5 @@
 A subnet is a range of IPs within your VPC, like 10.1.0.0/24 (which means 10.1.0.0 - 10.1.0.255)
+It can be assigned a [[NACL|Network Access Control List]] which defines access in/out of it.
 
 - A **public subnet** is a subnet which has a [[Route tables|route]] to the internet via an [[Internet Gateway]].
 - A private subnet has no such route.
