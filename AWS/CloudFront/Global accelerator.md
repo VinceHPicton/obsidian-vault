@@ -3,7 +3,7 @@ Whereas CloudFront serves cached content, global accelerator proxies client requ
 Why it's faster is eg: a request is sent from Australia to your server in California, it must traverse the internet globally, making many hops between routers which adds latency and more packet failure potential. 
 If instead the request goes to an AWS edge location in Australia and then over the faster private AWS network, you avoid these hops.
 
-This is achieved through [[Anycast vs Unicast IP|Anycast IP]]. 
+This is achieved through [[Anycast vs Unicast vs Multicast IP|Anycast IP]]. 
 
 If you use global accelerator, **2 static anycast IPs are assigned to your application** which route requests to the nearest edge location.
 The reason there are 2 is for redundancy, either can lead a user to the same edge location depending on conditions.
