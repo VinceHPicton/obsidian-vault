@@ -1,4 +1,4 @@
-The bridge between on-premises data and cloud data. The storage gateway appliance itself is deployed on-premises as a virtual machine, or you can buy a hardware appliance (more on this below).
+Is software installed on a VM, a piece of hardware, on-premises, which acts as the bridge between on-premises data and cloud data. 
 
 ![[Storage Gateway storage options.png]]
 **Types of storage gateway**

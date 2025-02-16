@@ -1,0 +1,24 @@
+Web Application Firewall is a **layer 7 (HTTP) firewall** used to protect your apps from common web exploits.
+
+Where you can use WAF:
+- Application Load Balancer (Not NLB as it's layer 7)
+- APi Gateway
+- CloudFront
+- AppSync GraphQL API
+- Cognito user pools
+
+**Web Access Control Lists**
+You can define rules for your firewall:
+- Allowed IP sets, 10k IPs per rule
+- HTTP header/body rules
+- SQL Injection and XSS attacks
+- geo-match (block countries)
+- **Rate-based** rules (DDoS protection)
+
+Web ACLs are **regional** except for cloudfront
+You can also combine rules into rule groups
+
+**Use WAF to give [[Application load balancer (ALB)|ALB]] a fixed IP**
+ALBs do not have a fixed IP, but combining a [[Global accelerator]] and a WAF, we can create a static IP ALB.
+The WAF is used to entire the only IP allowed is from the global accelerator, and the global accelerator **provides a fixed IP**
+![[WAF.png]]

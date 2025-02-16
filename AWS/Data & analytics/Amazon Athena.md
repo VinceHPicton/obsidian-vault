@@ -1,4 +1,4 @@
-A serverless querying service to analyse data stored in S3 using SQL.
+A **serverless** querying service to analyse data stored in S3 using **SQL**.
 
 Supports CSV, JSON, ORC, Avro, Parquet, 5 USD/TB of data scanned
 

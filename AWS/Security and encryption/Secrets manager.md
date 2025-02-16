@@ -1,0 +1,10 @@
+This is quite similar to parameter store, with the main difference that you can **force secrets to rotate** every X days
+The main use case of this is for **RDS credentials** - one secret can contain several pieces of data
+It's cool because if you update the DBuser/password the RDS itself is automatically updated.
+
+**Multi-region secrets**
+Just like with [[KMS multi-region keys]] there is a primary and multiple replicas of the secret that stay synced with the primary.
+You can also promote a replica to a new standalone secret.
+
+You'd use a multi-region secret if you had multi-region apps that needed the secret
+

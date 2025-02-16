@@ -1,5 +1,5 @@
 A bucket can only have 1 default encryption key, but on upload you can specify a different key for an individual object.
-SSE-S3 is autometically applied to new objects.
+SSE-S3 is automatically applied to new objects.
 You can force an encryption type with a bucket policy 
 **Bucket policies are evaluated before default encryption** so they can override the default.
 
@@ -7,7 +7,7 @@ There are 4 methods of encryption in S3, split across 2 categories:
 
 (SSE = server-side encryption):
 - SSE-S3 - keys owned and managed by AWS on the S3 service
-- SSE-KMS - keys handled by you via teh AWS KMS service
+- SSE-KMS - keys handled by you via the AWS KMS service
 - SSE-C - keys are fully managed by customer, outside of AWS
 - Client-side encryption - data is encrypted before sending it to AWS
 

@@ -51,7 +51,7 @@ Bootstrap scripts are just scripts you can run on an EC2 the moment it starts up
 
 
 **Stopping and starting EC2 instances effects on IP**
-When you stop and restart an EC2, its public IP may be changed, but its private IP wont be.
+When you stop and restart an EC2, its **public IP may be changed**, but its private IP wont be.
 
 
 **Instance types - dont need to remember classes**

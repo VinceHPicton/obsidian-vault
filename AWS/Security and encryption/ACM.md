@@ -1,0 +1,23 @@
+ACM = AWS Certificate Manager
+This is the service which manages your SSL/TLS certificates.
+Public certificates are free to use in ACM, private ones arent.
+Auto-renews your certs.
+
+You can load the certs to any load balancers, cloudfront, API gateway.
+But you cannot use it with EC2 directly.
+
+**Requesting Public Certificates**
+1. List domain names to be included in the cert
+2. Select validation method: email or DNS (preferred)
+3. Wait a few hours
+4. Public cert enrolled for renewal with ACM
+
+**Importing public certs**
+- **Does not auto renew** if you do this
+- sends events to eventbridge to warn of expiry
+- AWS Config can detect expiry.
+
+**Key point about [[API Gateway]] integration**
+Because [[CloudFront]] exists in **us-east-1**, if you are using **edge optimized** API Gateway (the default) the ACM certificates **must exist in us-east-1**
+
+If using regional - ACM must exist in the same region as the api gateway.

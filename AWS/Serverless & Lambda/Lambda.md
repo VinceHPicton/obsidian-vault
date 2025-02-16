@@ -1,5 +1,5 @@
 - Virtual functions - not servers like EC2
-- 15 min max running time
+- Has a maximum running time: 15 minutes
 - Pay per request and compute/call time
 	- Free tier: 1,000,000 Requests and 400,000 GB seconds of compute
 	- This means if you had functions of all 0.5 GB RAM, you'd get 800,000 seconds of compute using them for free

@@ -1,0 +1,1 @@
+It's basically [[API Gateway]] but for GraphQL

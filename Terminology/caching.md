@@ -1,0 +1,1 @@
+Caches are in-memory databases with super high performance and low latency.

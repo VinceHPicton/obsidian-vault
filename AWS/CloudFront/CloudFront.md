@@ -1,5 +1,7 @@
 CloudFront is AWS' [[CDN]] 
 
+**CloudFront distributions** can only be **changed (configured)** in the **us-east-1 (N. Virginia) region**, but they work globally.
+
 Like all CDNs it's used to improve latency by caching content at the 216 aws global points of presence.
 CloudFront integrates with Shield, giving DDoS protection.
 

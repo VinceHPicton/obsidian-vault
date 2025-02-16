@@ -1,3 +1,6 @@
+A service which helps you improve global application availability, performance, and security.
+It **accelerates** user requests by sending them through the private AWS network.
+
 Whereas CloudFront serves cached content, global accelerator proxies client requests to your server via the internal AWS network, for improved global performance.
 
 Why it's faster is eg: a request is sent from Australia to your server in California, it must traverse the internet globally, making many hops between routers which adds latency and more packet failure potential. 
@@ -5,7 +8,7 @@ If instead the request goes to an AWS edge location in Australia and then over t
 
 This is achieved through [[Anycast vs Unicast vs Multicast IP|Anycast IP]]. 
 
-If you use global accelerator, **2 static anycast IPs are assigned to your application** which route requests to the nearest edge location.
+If you use global accelerator, **2 STATIC anycast IPs are assigned to your application** which route requests to the nearest edge location.
 The reason there are 2 is for redundancy, either can lead a user to the same edge location depending on conditions.
 
 You can use global accelerator with:

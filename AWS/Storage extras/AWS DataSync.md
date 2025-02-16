@@ -1,4 +1,6 @@
-This is **scheduled** data syncs that can be setup to take place from anything, to anything. Schedule a sync hourly, daily, weekly etc.
+Is a **data transfer service** which allows you to move large amounts of data between your on-premise datacentre and AWS, or between AWS services.
+
+DataSync provides **scheduled** data syncs **from anything, to anything**. Schedule a sync hourly, daily, weekly etc.
 
 **Sync between**
 AWS service <-> AWS service (no agent)

@@ -1,0 +1,2 @@
+A **DNS zone** is a specific portion of the DNS namespace in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System "Domain Name System") (DNS), which a specific organization or administrator manages
+![[DNS zones.png]]

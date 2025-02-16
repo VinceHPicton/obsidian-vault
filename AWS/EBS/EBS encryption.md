@@ -2,7 +2,7 @@ Key fact: **EBS encryption utilises keys from [[KMS]] (AES-256)**
 
 When you create an encrypted EBS volume you get:
 - Data at rest encrypted
-- In-flight data between instance and volume encrpyted
+- In-flight data between instance and volume **is encrypted** - AWS handles the decryption behind the scenes
 - All snapshots of volume encrypted
 - All volumes created from that snapshot are encrypted
 

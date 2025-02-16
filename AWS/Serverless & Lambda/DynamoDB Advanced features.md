@@ -1,6 +1,6 @@
 
 **DynamoDB accelerator (DAX)**
-- This is caching for DynamoDB and it's a complimentary method of caching to [[Elasticache]].
+- This is caching for DynamoDB and it's a **complimentary** method of caching to [[Elasticache]] - you can use both together
 	- Elasticache is more for storing the result of a big computed operation on the DB, DAX is for caching individual objects.
 - Gives you **microsecond** latency for the cached data
 - 5 Minute TTL by default.
@@ -8,7 +8,7 @@
 ![[DynamoDB Advanced features.png|250]]
 
 **DynamoDB streams**
-Allows you to record an ordered steam of the operations that happened to your DynamoDB table, is an alternative to [[Kinesis Data Streams]]
+Allows you to record an ordered steam of the operations that happened to your DynamoDB table, is an alternative to [[8. Kinesis Data Streams]]
 
 DynamoDB streams retain data for 24 hours, while kinesis holds for a year and has a larger number of available consumers
 ![[DynamoDB Advanced features 1.png]]
