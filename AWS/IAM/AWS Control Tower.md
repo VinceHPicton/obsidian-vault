@@ -1,4 +1,4 @@
-Allows you to automate setting up and governing multiple accounts environement - uses AWS Organisations
+Allows you to automate setting up and governing a multiple accounts environment - uses AWS Organisations
 
 **Use guardrails to govern**
 There are 2 kinds: **preventative** and **Detective**

@@ -1,1 +1,1 @@
-It's basically [[API Gateway]] but for GraphQL
+It's basically [[10. API Gateway]] but for GraphQL

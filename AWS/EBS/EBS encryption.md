@@ -1,4 +1,4 @@
-Key fact: **EBS encryption utilises keys from [[KMS]] (AES-256)**
+Key fact: **EBS encryption utilises keys from [[1. KMS]] (AES-256)**
 
 When you create an encrypted EBS volume you get:
 - Data at rest encrypted
