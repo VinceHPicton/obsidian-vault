@@ -1,0 +1,11 @@
+absorbgitdirs
+deinit
+init
+set-url
+summary
+update
+add
+foreach
+set-branch
+status
+sync
