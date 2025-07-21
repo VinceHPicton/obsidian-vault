@@ -3,9 +3,9 @@ deinit
 init
 set-url
 summary
-update
+[[update]]
 add
 foreach
 set-branch
 status
-sync
+[[sync]]
