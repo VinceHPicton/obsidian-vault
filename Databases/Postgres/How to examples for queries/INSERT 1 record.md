@@ -1,0 +1,1 @@
+`INSERT INTO authz.group_members (group_id, subject) VALUES (@GroupID, @SubjectID)`

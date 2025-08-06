@@ -1,0 +1,1 @@
+`SELECT id, group_id, subject FROM authz.group_members WHERE group_id = 'a042ae45-8aa9-4117-a01d-27b1223cdc1a' AND subject = 'ec2e6909-e79b-467c-a5e7-3be9af989700'`

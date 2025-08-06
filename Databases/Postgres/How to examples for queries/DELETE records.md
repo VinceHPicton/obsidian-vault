@@ -1,0 +1,1 @@
+`DELETE FROM authz.group_members WHERE group_id = @GroupID AND subject = @SubjectID`
