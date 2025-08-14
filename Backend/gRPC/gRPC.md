@@ -1,0 +1,2 @@
+- Uses HTTP/2 while [[REST]] uses HTTP/1.1
+- Uses protocol buffers, whereas [[REST]] uses JSON or XML
