@@ -1,0 +1,1 @@
+A small program that runs on a machine and acts on behalf of a larger system, reporting status and carrying out instructions.

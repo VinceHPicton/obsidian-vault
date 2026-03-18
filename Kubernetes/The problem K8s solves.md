@@ -1,0 +1,2 @@
+It orchestrates your container deployments, essentially say you have massive server load, and you need to have many worker nodes (computers) running your server, they all need the use the same up-to-date images, they need to be load balanced, etc. K8s automates this process, so you don't need to manually SSH into every server to run the new docker image, or manually add new containers to your new worker nodes when you scale horizontally.
+

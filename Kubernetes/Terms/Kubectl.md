@@ -1,0 +1,1 @@
+A CLI tool which lets you command a k8s cluster (its short for kube control). It's typically running on your personal device which you're using to control the master node, rather than the master node itself.
