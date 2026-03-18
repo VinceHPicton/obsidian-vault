@@ -1,0 +1,1 @@
+By editing your deployment with [[edit deployment]] you can for example, tell ALL** the pods in your cluster to run a new image. Kuberenetes will just make it happen by killing all the old pods and running new ones automatically.

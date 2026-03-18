@@ -1,0 +1,1 @@
+details info on your pods
