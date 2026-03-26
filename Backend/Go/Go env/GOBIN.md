@@ -1,0 +1,1 @@
+Determines where Go should save binaries
