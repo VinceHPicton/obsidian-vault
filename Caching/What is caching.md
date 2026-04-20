@@ -1,0 +1,1 @@
+Caching is storing copies of data in a **temporary high-speed storage layer** for performance reasons, frequently things like the results of a DB query are cached to remove read load from a DB and improve response time for users.
