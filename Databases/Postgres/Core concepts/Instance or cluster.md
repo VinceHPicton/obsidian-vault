@@ -1,0 +1,1 @@
+Either word refers to a postgres server which can have multiple databases (ie "cluster")

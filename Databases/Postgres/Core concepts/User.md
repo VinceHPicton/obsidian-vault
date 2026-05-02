@@ -1,0 +1,1 @@
+A user in postgres is a [[Role]] with the ability to login

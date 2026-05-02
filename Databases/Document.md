@@ -1,0 +1,1 @@
+A self-contained data record, structured as a hierarchical key-value object, typically JSON.

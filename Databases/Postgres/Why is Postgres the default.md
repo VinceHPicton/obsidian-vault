@@ -1,0 +1,3 @@
+- It's free, open source, and hits the best overall trade-off curve.
+- It has excellent performance and feature set, the JSONB type allows it to even be used as a decent [[Document]] store
+- Extensions are excellent such as with PostGIS for Geospatial queries vs alternatives.
