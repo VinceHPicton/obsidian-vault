@@ -1,5 +1,3 @@
-
-
 Context timeouts lets you auto cancel after a specific duration, but you must check `ctx.Done()` or more rarely `ctx.Err()` to do so.
 
 ## Create a timeout context
@@ -142,3 +140,35 @@ context deadline exceeded
 ```
 context canceled
 ```
+
+
+# Example timeline
+
+```
+ctx, cancel := context.WithTimeout(
+	context.Background(),
+	3*time.Second,
+)
+defer cancel()
+
+select {
+case <-ctx.Done():
+	fmt.Println(ctx.Err())
+}
+```
+
+Execution:
+
+```
+t=0s  -> select starts blocking
+t=1s  -> still blocked
+t=2s  -> still blocked
+t=3s  -> timeout occurs
+t=3s  -> ctx.Done() channel closes
+t=3s  -> select wakes up
+t=3s  -> prints "context deadline exceeded"
+```
+
+Example: https://goplay.tools/snippet/V6Gzyf62eii
+
+---
