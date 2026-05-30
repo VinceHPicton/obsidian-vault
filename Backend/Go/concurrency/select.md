@@ -124,11 +124,21 @@ It becomes:
 
 # Using select for an inline timeout
 ```
+ch := make(chan int)
+
+go func() {
+	// Try either of these
+	// time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 3)
+	ch <- 1
+}()
+
 select {
 case res := <-ch:
-    fmt.Println(res)
+	fmt.Println(res)
 
 case <-time.After(2 * time.Second):
-    fmt.Println("timeout")
+	fmt.Println("timeout")
 }
 ```
+Example of this: https://goplay.tools/snippet/-_P4qj4ja1B

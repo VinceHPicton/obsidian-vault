@@ -4,6 +4,12 @@ One of the core Go idioms is: **don't share memory to communicate, communicate t
 
 **Channels let you do this.**
 
+### Sending and receiving
+
+```
+ch <- 42   // send value into channel
+x := <-ch  // receive value from channel
+```
 
 ## Unbuffered vs buffered channels
 
