@@ -16,7 +16,10 @@ func main() {
 
 }
 ```
-
+See: https://goplay.tools/snippet/_ER1NnBy_lT
 
 - **Length** (`len`) → number of elements the slice currently has.
 - **Capacity** (`cap`) → maximum number of elements the slice can hold before it needs to allocate new underlying array space.
+
+
+# What about pointers?
