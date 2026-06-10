@@ -1,0 +1,1 @@
+`go env -w VARIABLE_NAME=value`
